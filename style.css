@@ -1,0 +1,52 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: sans-serif;
+   background: url('./Images/background.jpg') no-repeat center center fixed;
+   background-size: cover;
+   color: white;
+}
+.btn {
+   background: transparent;
+   color: white;
+   font-size: 25px;
+   border: none;
+   cursor: pointer;
+}
+.controls {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.btn:hover {
+   color: greenyellow;
+}
+.song-image {
+   width: 300px;
+   height: 300px;
+   border-radius: 20px;
+   margin: 20px 0;
+   transition: opacity 0.5s ease;
+   opacity: 1;
+}
+.song-image.fade-out {
+   opacity: 0;
+}
+.progress-bar {
+   width: 40%;
+   height: 10px;
+   background-color: rgba(255, 255, 255, 0.5);
+   margin-top: 20px;
+}
+
+.progress {
+   width: 0%;
+   height: 100%;
+   background-color: greenyellow;
+   transition: width 0.1s ease;
+}
+.playing {
+   text-align: center;
+}
