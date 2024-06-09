@@ -1,10 +1,10 @@
-const fakelove2Audio = new Audio('./Audio/Fake Love 2 - Fukra Insaan.mp3');
-const goinoffAudio = new Audio('./Audio/Goin Off - Karan Aujla.mp3');
-const headoverheelsAudio = new Audio('./Audio/Head Over Heels - Sukhan Verma.mp3');
-const noreasonAudio = new Audio('./Audio/No Reason - Parmish Verma.mp3');
-const ranjhaaAudio = new Audio('./Audio/Ranjhaa - Fukra Insaan.mp3');
-const terebinaAudio = new Audio('./Audio/Tere Bina - Sukhan Verma.mp3');
-const winningspeechAudio = new Audio('./Audio/Winning Speech - Karan Aujla.mp3');
+const fakelove2Audio = new Audio('Fake Love 2 - Fukra Insaan.mp3');
+const goinoffAudio = new Audio('Goin Off - Karan Aujla.mp3');
+const headoverheelsAudio = new Audio('Head Over Heels - Sukhan Verma.mp3');
+const noreasonAudio = new Audio('No Reason - Parmish Verma.mp3');
+const ranjhaaAudio = new Audio('Ranjhaa - Fukra Insaan.mp3');
+const terebinaAudio = new Audio('Tere Bina - Sukhan Verma.mp3');
+const winningspeechAudio = new Audio('Winning Speech - Karan Aujla.mp3');
 
 const prevBtn = document.querySelector('.previous');
 const playBtn = document.querySelector('.play-pause');
@@ -14,13 +14,13 @@ const songImage = document.querySelector('.song-image');
 const playPauseIcon = document.querySelector('#play-pause-icon');
 
 const songs = [
-   {ele: fakelove2Audio, audioName: 'Fake Love 2 - Fukra Insaan', imgsrc: './Images/Fake Love 2.jpg'} ,
-   {ele: goinoffAudio, audioName: 'Goin Off - Karan Aujla', imgsrc: './Images/Goin Off.jpg'} ,
-   {ele: headoverheelsAudio, audioName: 'Head Over Heels - Sukhan Verma', imgsrc: './Images/Head Over Heels.jpg'} , 
-   {ele: noreasonAudio, audioName: 'No Reason - Parmish Verma', imgsrc: './Images/No Reason.jpg'} ,
-   {ele: ranjhaaAudio, audioName: 'Ranjhaa - Fukra Insaan', imgsrc: './Images/Ranjhaa.jpg'} ,
-   {ele: terebinaAudio, audioName: 'Tere Bina - Sukhan Verma', imgsrc: './Images/Tere Bina.jpg'} ,
-   {ele: winningspeechAudio, audioName: 'Winning Speech - Karan Aujla', imgsrc: './Images/Winning Speech.jpg'} ,
+   {ele: fakelove2Audio, audioName: 'Fake Love 2 - Fukra Insaan', imgsrc: 'Fake Love 2.jpg'} ,
+   {ele: goinoffAudio, audioName: 'Goin Off - Karan Aujla', imgsrc: 'Goin Off.jpg'} ,
+   {ele: headoverheelsAudio, audioName: 'Head Over Heels - Sukhan Verma', imgsrc: 'Head Over Heels.jpg'} , 
+   {ele: noreasonAudio, audioName: 'No Reason - Parmish Verma', imgsrc: 'No Reason.jpg'} ,
+   {ele: ranjhaaAudio, audioName: 'Ranjhaa - Fukra Insaan', imgsrc: 'Ranjhaa.jpg'} ,
+   {ele: terebinaAudio, audioName: 'Tere Bina - Sukhan Verma', imgsrc: 'Tere Bina.jpg'} ,
+   {ele: winningspeechAudio, audioName: 'Winning Speech - Karan Aujla', imgsrc: 'Winning Speech.jpg'} ,
 ];
 
 let current = 0;
