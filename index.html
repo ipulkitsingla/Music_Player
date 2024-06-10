@@ -13,16 +13,18 @@
    <h1 class="playing"> <span class="song-name"></span></h1>
    <img class="song-image" src="" alt="Current Song Image">
    <div class="controls">
+      <input type="range" class="volume-slider" min="0" max="1" step="0.01" value="1">
       <button class="btn previous"><i class="ph-bold ph-skip-back"></i></button>
       <button class="btn play-pause"><i id="play-pause-icon" class="ph-bold ph-play"></i></button>
       <button class="btn next"><i class="ph-bold ph-skip-forward"></i></button>
+      <button class="btn shuffle"><i class="ph-bold ph-shuffle"></i></button>
    </div>
    <div class="progress-bar">
       <div class="progress"></div>
    </div>
-   <footer>
-   <p class="footer">2024 Music Player. All rights reserved to Pulkit Singla.</p>
-  </footer>
+   <div class="footer">
+      <p>2024 Music Player. All rights reserved to Pulkit Singla.</p>
+   </div>
 <script src="script.js"></script>
 </body>
 
